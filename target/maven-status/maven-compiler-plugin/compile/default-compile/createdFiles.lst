@@ -1,0 +1,5 @@
+pageObjects\LoginPage.class
+pageObjects\CustomerPage.class
+pageObjects\HomePage.class
+resources\base.class
+resources\ExtentReporterNG.class
