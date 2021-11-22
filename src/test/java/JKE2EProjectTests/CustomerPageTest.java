@@ -8,7 +8,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -30,12 +29,13 @@ public class CustomerPageTest extends Utils {
 		log.info("Driver is initialized");
 		LoginPage lp = new LoginPage(driver);
 		log.info("Login page loaded");
-		String username = readExcel(Utils.TEST_DATA_PATH,"Logins", 1, 0);
+		String username = readExcelCells("Logins", 1, 0);
 		lp.getusername().clear();
 		lp.getusername().sendKeys(username);
 		lp.getpassword().clear();
-		String password = readExcel(Utils.TEST_DATA_PATH,"Logins", 1, 1);
+		String password = readExcelCells("Logins", 1, 1);
 		lp.getpassword().sendKeys(password);
+		//Object[][] test = Utils.getTestData("CustomerDetails");
 		lp.clickLogin();
 		log.info("Login Completed");
 	}
