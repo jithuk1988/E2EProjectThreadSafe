@@ -16,8 +16,9 @@ import base.base;
 import pageObjects.CustomerPage;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import util.Utils;
 
-public class CustomerPageTest extends base {
+public class CustomerPageTest extends Utils {
 	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(base.class.getName());
 	
@@ -29,10 +30,12 @@ public class CustomerPageTest extends base {
 		log.info("Driver is initialized");
 		LoginPage lp = new LoginPage(driver);
 		log.info("Login page loaded");
+		String username = readExcel(Utils.TEST_DATA_PATH,"Logins", 1, 0);
 		lp.getusername().clear();
-		lp.getusername().sendKeys("admin@yourstore.com");
+		lp.getusername().sendKeys(username);
 		lp.getpassword().clear();
-		lp.getpassword().sendKeys("admin");
+		String password = readExcel(Utils.TEST_DATA_PATH,"Logins", 1, 1);
+		lp.getpassword().sendKeys(password);
 		lp.clickLogin();
 		log.info("Login Completed");
 	}
@@ -42,6 +45,7 @@ public class CustomerPageTest extends base {
 
 
 		HomePage hp = new HomePage(driver);
+		Utils util = new Utils();
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		executor.executeScript("arguments[0].click();",hp.sideMenu_customer_role_link());    
 		hp.SideMenu_Customers().click();
