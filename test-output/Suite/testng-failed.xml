@@ -9,6 +9,7 @@
       <class name="JKE2EProjectTests.CustomerPageTest">
         <methods>
           <include name="CustomerPageSearchEmailTest"/>
+          <include name="CustomerPageSearchFirstNameTest"/>
           <include name="teardown"/>
           <include name="initialize"/>
         </methods>

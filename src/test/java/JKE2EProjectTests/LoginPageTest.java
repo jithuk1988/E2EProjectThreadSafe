@@ -12,8 +12,9 @@ import org.testng.annotations.Test;
 
 import base.base;
 import pageObjects.LoginPage;
+import util.Utils;
 
-public class LoginPageTest extends base{
+public class LoginPageTest extends Utils{
 	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(base.class.getName());
 	@BeforeTest

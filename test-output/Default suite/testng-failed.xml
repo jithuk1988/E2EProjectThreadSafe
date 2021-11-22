@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JKE2EProject.HomePageTest">
+      <class name="JKE2EProjectTests.CustomerPageTest">
         <methods>
-          <include name="HomeTest"/>
-          <include name="initialize"/>
+          <include name="CustomerPageSearchEmailTest"/>
           <include name="teardown"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- JKE2EProject.HomePageTest -->
+      </class> <!-- JKE2EProjectTests.CustomerPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

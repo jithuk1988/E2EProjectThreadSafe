@@ -410,3 +410,59 @@
 19:49:23.867 [TestNG-tests-2] INFO  base.base - Side menu verification completed
 19:49:25.209 [TestNG-tests-1] INFO  base.base - Login Successfull
 19:49:31.008 [TestNG-tests-3] INFO  base.base - Customer page search by First Name completed
+21:00:29.693 [main] INFO  base.base - Driver is initialized
+21:08:08.372 [main] INFO  base.base - Driver is initialized
+21:08:12.667 [main] INFO  base.base - Navigated to Login Page
+21:08:20.386 [main] INFO  base.base - Login Successfull
+21:08:21.854 [main] INFO  base.base - Navigated to Login Page
+21:08:24.423 [main] INFO  base.base - Login Successfull
+21:15:08.412 [TestNG-tests-1] INFO  base.base - Driver is initialized
+21:15:13.175 [TestNG-tests-2] INFO  base.base - Driver is initialized
+21:15:13.203 [TestNG-tests-2] INFO  base.base - Login page loaded
+21:15:13.926 [TestNG-tests-1] INFO  base.base - Navigated to Login Page
+21:15:14.153 [TestNG-tests-3] INFO  base.base - Driver is initialized
+21:15:14.153 [TestNG-tests-3] INFO  base.base - Login page loaded
+21:15:21.350 [TestNG-tests-2] INFO  base.base - Login Successfull
+21:15:21.415 [TestNG-tests-2] INFO  base.base - User id verified
+21:15:21.442 [TestNG-tests-2] INFO  base.base - Verifying Side menu links
+21:15:21.813 [TestNG-tests-2] INFO  base.base - Side menu verification completed
+21:15:22.109 [TestNG-tests-1] INFO  base.base - Login Successfull
+21:15:23.301 [TestNG-tests-1] INFO  base.base - Navigated to Login Page
+21:15:26.537 [TestNG-tests-1] INFO  base.base - Login Successfull
+21:16:50.623 [main] INFO  base.base - Driver is initialized
+21:16:50.643 [main] INFO  base.base - Login page loaded
+21:17:52.592 [main] INFO  base.base - Driver is initialized
+21:17:59.737 [main] INFO  base.base - Login page loaded
+21:19:42.695 [main] INFO  base.base - Driver is initialized
+21:19:46.688 [main] INFO  base.base - Login page loaded
+21:30:49.197 [main] INFO  base.base - Driver is initialized
+21:30:49.224 [main] INFO  base.base - Login page loaded
+21:36:35.208 [main] INFO  base.base - Driver is initialized
+21:36:35.276 [main] INFO  base.base - Login page loaded
+21:36:37.234 [main] INFO  base.base - Login Completed
+21:39:50.053 [main] INFO  base.base - Driver is initialized
+21:39:50.129 [main] INFO  base.base - Login page loaded
+21:39:52.146 [main] INFO  base.base - Login Completed
+21:41:24.415 [main] INFO  base.base - Driver is initialized
+21:41:24.482 [main] INFO  base.base - Login page loaded
+21:41:32.693 [main] INFO  base.base - Login Completed
+21:41:39.099 [main] INFO  base.base - Customer page search by Email completed
+21:43:58.422 [main] INFO  base.base - Driver is initialized
+21:43:58.471 [main] INFO  base.base - Login page loaded
+21:44:08.567 [main] INFO  base.base - Login Completed
+21:47:03.787 [TestNG-tests-1] INFO  base.base - Driver is initialized
+21:47:18.812 [TestNG-tests-1] INFO  base.base - Navigated to Login Page
+21:47:19.279 [TestNG-tests-2] INFO  base.base - Driver is initialized
+21:47:19.284 [TestNG-tests-2] INFO  base.base - Login page loaded
+21:47:19.798 [TestNG-tests-3] INFO  base.base - Driver is initialized
+21:47:19.799 [TestNG-tests-3] INFO  base.base - Login page loaded
+21:47:31.660 [TestNG-tests-1] INFO  base.base - Login Successfull
+21:47:31.747 [TestNG-tests-2] INFO  base.base - Login Successfull
+21:47:31.830 [TestNG-tests-2] INFO  base.base - User id verified
+21:47:31.886 [TestNG-tests-2] INFO  base.base - Verifying Side menu links
+21:47:32.460 [TestNG-tests-2] INFO  base.base - Side menu verification completed
+21:47:34.390 [TestNG-tests-3] INFO  base.base - Login Completed
+21:47:34.890 [TestNG-tests-1] INFO  base.base - Navigated to Login Page
+21:47:37.332 [TestNG-tests-1] INFO  base.base - Login Successfull
+21:47:39.111 [TestNG-tests-3] INFO  base.base - Customer page search by Email completed
+21:47:46.010 [TestNG-tests-3] INFO  base.base - Customer page search by First Name completed
