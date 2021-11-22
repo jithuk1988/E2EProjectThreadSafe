@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 22 21:43:45 IST 2021</td>
+<td>Started on:</td><td>Mon Nov 22 22:07:14 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>28 seconds (28059 ms)</td>
+<tr><td>Total time:</td><td>134 seconds (134500 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='JKE2EProjectTests.CustomerPageTest.CustomerPageSearchEmailTest()'><b>CustomerPageSearchEmailTest</b><br>Test class: JKE2EProjectTests.CustomerPageTest<br>Test method: Verify searching of customers using Email ID</td>
-<td><div><pre>java.lang.NullPointerException
-	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:115)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:102)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
-	at util.Utils.sendKeys(Utils.java:31)
-	at JKE2EProjectTests.CustomerPageTest.CustomerPageSearchEmailTest(CustomerPageTest.java:54)
+<td><div><pre>java.lang.AssertionError: expected [1-1 of 1 items] but found [1-6 of 6 items]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at JKE2EProjectTests.CustomerPageTest.CustomerPageSearchEmailTest(CustomerPageTest.java:58)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,14 +112,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1894338251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1894338251'><pre>java.lang.NullPointerException
-	at java.base/java.util.Objects.requireNonNull(Objects.java:221)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:115)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:102)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:45)
-	at util.Utils.sendKeys(Utils.java:31)
-	at JKE2EProjectTests.CustomerPageTest.CustomerPageSearchEmailTest(CustomerPageTest.java:54)
+</pre></div><a href='#' onClick='toggleBox("stack-trace629016615", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace629016615'><pre>java.lang.AssertionError: expected [1-1 of 1 items] but found [1-6 of 6 items]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at JKE2EProjectTests.CustomerPageTest.CustomerPageSearchEmailTest(CustomerPageTest.java:58)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -148,8 +150,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>4</td>
-<td>JKE2EProjectTests.CustomerPageTest@27305e6</td></tr>
+<td>3</td>
+<td>JKE2EProjectTests.CustomerPageTest@75c9e76b</td></tr>
 </table><p>
 </body>
 </html>
