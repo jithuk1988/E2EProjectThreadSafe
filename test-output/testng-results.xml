@@ -1,69 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-22T22:07:14 IST" name="Default suite" finished-at="2021-11-22T22:09:29 IST" duration-ms="134500">
+  <suite started-at="2021-12-19T21:02:26 IST" name="Suite" finished-at="2021-12-19T21:02:54 IST" duration-ms="27593">
     <groups>
     </groups>
-    <test started-at="2021-11-22T22:07:14 IST" name="Default test" finished-at="2021-11-22T22:09:29 IST" duration-ms="134500">
-      <class name="JKE2EProjectTests.CustomerPageTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@75c9e76b]" started-at="2021-11-22T22:07:14 IST" name="initialize" finished-at="2021-11-22T22:09:25 IST" duration-ms="130425" status="PASS">
+    <test started-at="2021-12-19T21:02:26 IST" name="ValidateLoginTest" finished-at="2021-12-19T21:02:42 IST" duration-ms="16180">
+      <class name="JKE2EProjectTests.LoginPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:JKE2EProjectTests.LoginPageTest@200606de]" started-at="2021-12-19T21:02:26 IST" name="initialize" finished-at="2021-12-19T21:02:31 IST" duration-ms="4546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="CustomerPageSearchEmailTest()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@75c9e76b]" started-at="2021-11-22T22:09:25 IST" name="CustomerPageSearchEmailTest" description="Verify searching of customers using Email ID" finished-at="2021-11-22T22:09:28 IST" duration-ms="3778" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [1-1 of 1 items] but found [1-6 of 6 items]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [1-1 of 1 items] but found [1-6 of 6 items]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at JKE2EProjectTests.CustomerPageTest.CustomerPageSearchEmailTest(CustomerPageTest.java:58)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JKE2EProjectTests.LoginPageTest@200606de]" started-at="2021-12-19T21:02:31 IST" name="LoginTest" description="Verify logging in with two different users" data-provider="getData" finished-at="2021-12-19T21:02:38 IST" duration-ms="7303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SuperAdmin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JKE2EProjectTests.LoginPageTest@200606de]" started-at="2021-12-19T21:02:38 IST" name="LoginTest" description="Verify logging in with two different users" data-provider="getData" finished-at="2021-12-19T21:02:42 IST" duration-ms="4048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ADMIN@YOURSTORE.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JKE2EProjectTests.LoginPageTest@200606de]" started-at="2021-12-19T21:02:42 IST" name="teardown" finished-at="2021-12-19T21:02:42 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- JKE2EProjectTests.LoginPageTest -->
+    </test> <!-- ValidateLoginTest -->
+    <test started-at="2021-12-19T21:02:26 IST" name="ValidateHomePage" finished-at="2021-12-19T21:02:44 IST" duration-ms="17672">
+      <class name="JKE2EProjectTests.HomePageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:JKE2EProjectTests.HomePageTest@1fe8d51b]" started-at="2021-12-19T21:02:26 IST" name="initialize" finished-at="2021-12-19T21:02:35 IST" duration-ms="8748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="HomeTest()[pri:0, instance:JKE2EProjectTests.HomePageTest@1fe8d51b]" started-at="2021-12-19T21:02:35 IST" name="HomeTest" description="Verify all the side menu items are displayed" finished-at="2021-12-19T21:02:44 IST" duration-ms="8827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JKE2EProjectTests.HomePageTest@1fe8d51b]" started-at="2021-12-19T21:02:44 IST" name="teardown" finished-at="2021-12-19T21:02:44 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- JKE2EProjectTests.HomePageTest -->
+    </test> <!-- ValidateHomePage -->
+    <test started-at="2021-12-19T21:02:26 IST" name="ValidateCustomerPage" finished-at="2021-12-19T21:02:54 IST" duration-ms="27593">
+      <class name="JKE2EProjectTests.CustomerPageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@433ffad1]" started-at="2021-12-19T21:02:26 IST" name="initialize" finished-at="2021-12-19T21:02:41 IST" duration-ms="14990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="CustomerPageSearchEmailTest()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@433ffad1]" started-at="2021-12-19T21:02:41 IST" name="CustomerPageSearchEmailTest" description="Verify searching of customers using Email ID" finished-at="2021-12-19T21:02:48 IST" duration-ms="6742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CustomerPageSearchEmailTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@75c9e76b]" started-at="2021-11-22T22:09:28 IST" name="teardown" finished-at="2021-11-22T22:09:29 IST" duration-ms="168" status="PASS">
+        <test-method signature="CustomerPageSearchFirstNameTest()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@433ffad1]" started-at="2021-12-19T21:02:48 IST" name="CustomerPageSearchFirstNameTest" description="Verify searching of customers using First Name" finished-at="2021-12-19T21:02:54 IST" duration-ms="5775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerPageSearchFirstNameTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:JKE2EProjectTests.CustomerPageTest@433ffad1]" started-at="2021-12-19T21:02:54 IST" name="teardown" finished-at="2021-12-19T21:02:54 IST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- JKE2EProjectTests.CustomerPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- ValidateCustomerPage -->
+  </suite> <!-- Suite -->
 </testng-results>
